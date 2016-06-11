@@ -10,5 +10,9 @@ public class MarzelVane {
 	public void setHours(double dh) {
 		dHours = dh;
 	}
+	
+	public void addHours(double dh) {
+		dHours += dh;
+	}
 
 }
