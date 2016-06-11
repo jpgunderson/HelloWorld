@@ -13,6 +13,9 @@ public class Hello {
 		Hello left = new Hello();
 		System.out.println("Hello World! 6");
 		System.out.println("Encabulator State: " + left.eBooster.isTurboActive());
+		left.eBooster.setTurbo(true);
+		System.out.println("Encabulator State: " + left.eBooster.isTurboActive());
+
 	}
 
 }
