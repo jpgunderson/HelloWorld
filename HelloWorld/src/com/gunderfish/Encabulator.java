@@ -14,5 +14,9 @@ public class Encabulator {
 	public boolean isTurboActive() {
 		return bUseTurbo;
 	}
+	
+	public void disarmEncabulator() {
+		bUseTurbo = false;
+	}
 
 }
